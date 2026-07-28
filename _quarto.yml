@@ -6,7 +6,7 @@ project:
     - project-log.qmd
     - wikidata.qmd
     - wikidata-item.ipynb
-
+    - timeline.qmd
 website:
   title: "BIM Prototype 02"
   navbar:
@@ -19,7 +19,8 @@ website:
         text: Wikidata
       - href: wikidata-item.ipynb
         text: Item Profile
-
+      - href: timeline.qmd
+        text: "Ausstellung Timelines"
 format:
   html:
     theme: cosmo
